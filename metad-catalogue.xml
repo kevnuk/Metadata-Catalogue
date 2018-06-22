@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MD_Metadata 'MD_Metadata refers to ISO19115' xlink='https://grid-nigeria.org'>
-  <gmd:metadataStandardName>'Nigeria Grid3'</gmd:metadataStandardName>
+  <gmd:metadataStandardName>Nigeria Grid3</gmd:metadataStandardName>
   <State>
     <EducationalInstitutions></EducationalInstitutions>
     <Roads></Roads>
@@ -12,7 +12,7 @@
     <FillingStation></FillingStation>
     <Market></Market>
     <FactoryIndustrySite></FactoryIndustrySite>
-    <IDPSites></IDPSites>
+    <IDPSites>Borno</IDPSites>
     <GovernmentBuilding></GovernmentBuilding>
     <PostOffice></PostOffice>
     <StateBoundary></StateBoundary>
