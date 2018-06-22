@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MD_Metadata 'MD_Metadata refers to ISO19115' xlink='https://grid-nigeria.org'>
+  <gmd:metadataStandardName>'Nigeria Grid3'</gmd:metadataStandardName>
+  <State>
+    <EducationalInstitutions></EducationalInstitutions>
+    <Roads></Roads>
+    <HealthFacilities></HealthFacilities>
+    <Agriculture></Agriculture>
+    <Environment></Environment>
+    <Power></Power>
+    <CrimeandJustice></CrimeandJustice>
+    <FillingStation></FillingStation>
+    <Market></Market>
+    <FactoryIndustrySite></FactoryIndustrySite>
+    <IDPSites></IDPSites>
+    <GovernmentBuilding></GovernmentBuilding>
+    <PostOffice></PostOffice>
+    <StateBoundary></StateBoundary>
+    <LocalBoundary></LocalBoundary>
+    <WardBoundary></WardBoundary>
+    <PublicWaterPoints></PublicWaterPoints>
+    <Churches></Churches>
+    <Mosque></Mosque>
+    <SettlementPoints></SettlementPoints>
+    <Hamlets></Hamlets>
+    <SmallSettlements></SmallSettlements>
+    <BuiltUpArea></BuiltUpArea>
+    <VillageHead></VillageHead>
+  </State>
+  <gmd:parentIdentifier></gmd:parentIdentifier>
+  <gmd:contact></gmd:contact>
+  <gmd:dateStamp></gmd:dateStamp>
+    
+</MD_Metadata>

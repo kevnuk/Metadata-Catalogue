@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.grid-nigeria.org/dataset/namespaces"
+         xmlns:tns="http://www.grid-nigeria.org/dataset/namespaces" elementFormDefault="qualified"
+         targetNamespace="http://www.isotc211.org/2005/gmd" xmlns:GMD="http://www.isotc211.org/2005/gmd">
+
+    <element name="GRID3" type="tns:GRID3"/>
+
+    <complexType name="GRID3">
+    <sequence>
+        <element name="gmd:metadataStandardName" type=>
+        <element name="EducationalInstitutions" type="string"/>
+        <element name="Roads" type="string"/>
+        <element name="HealthFacilities" type="string"/>
+        <element name="Agriculture" type="string"/>
+        <element name="Environment" type="string"/>
+        <element name="Power" type="string"/>
+        <element name="CrimeandJustice" type="string"/>
+        <element name="FillingStation" type="string"/>
+        <element name="Market" type="string"/>
+        <element name="FactoryIndustrySite" type="string"/>
+        <element name="IDPSites" type="string"/>
+        <element name="GovernmentBuilding" type="string"/>
+        <element name="PostOffice" type="string"/>
+        <element name="StateBoundary" type="string"/>
+        <element name="LocalBoundary" type="string"/>
+        <element name="WardBoundary" type="string"/>
+        <element name="PublicWaterPoints" type="string"/>
+        <element name="Churches" type="string"/>
+        <element name="Mosques" type="string"/>
+        <element name="SettlementPoints" type="string"/>
+        <element name="Hamlets" type="string"/>
+        <element name="SmallSettlements" type="string"/>
+        <element name="VillageHead" type="string"/>
+        <element name="BuiltUpArea" type="string"/>
+        <element name="gmd:contact" type="string"/>
+        <element name="gmd:dateStamp" type="string"/>
+        <element name="gmd:parentIdentifier" type="string"/>
+        
+    </sequence>
+    </complexType>
+</schema>
