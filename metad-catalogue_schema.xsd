@@ -1,41 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.grid-nigeria.org/dataset/namespaces"
-         xmlns:tns="http://www.grid-nigeria.org/dataset/namespaces" elementFormDefault="qualified"
-         targetNamespace="http://www.isotc211.org/2005/gmd" xmlns:GMD="http://www.isotc211.org/2005/gmd">
-
-    <element name="GRID3" type="tns:GRID3"/>
-
-    <complexType name="GRID3">
-    <sequence>
-        <element name="gmd:metadataStandardName" type=>
-        <element name="EducationalInstitutions" type="string"/>
-        <element name="Roads" type="string"/>
-        <element name="HealthFacilities" type="string"/>
-        <element name="Agriculture" type="string"/>
-        <element name="Environment" type="string"/>
-        <element name="Power" type="string"/>
-        <element name="CrimeandJustice" type="string"/>
-        <element name="FillingStation" type="string"/>
-        <element name="Market" type="string"/>
-        <element name="FactoryIndustrySite" type="string"/>
-        <element name="IDPSites" type="string"/>
-        <element name="GovernmentBuilding" type="string"/>
-        <element name="PostOffice" type="string"/>
-        <element name="StateBoundary" type="string"/>
-        <element name="LocalBoundary" type="string"/>
-        <element name="WardBoundary" type="string"/>
-        <element name="PublicWaterPoints" type="string"/>
-        <element name="Churches" type="string"/>
-        <element name="Mosques" type="string"/>
-        <element name="SettlementPoints" type="string"/>
-        <element name="Hamlets" type="string"/>
-        <element name="SmallSettlements" type="string"/>
-        <element name="VillageHead" type="string"/>
-        <element name="BuiltUpArea" type="string"/>
-        <element name="gmd:contact" type="string"/>
-        <element name="gmd:dateStamp" type="string"/>
-        <element name="gmd:parentIdentifier" type="string"/>
-        
-    </sequence>
-    </complexType>
+<!-- edited with XMLSpy v2018 rel. 2 (x64) (http://www.altova.com) by Kevin (eHealth Africa) -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:tns="http://www.grid-nigeria.org/dataset/namespaces" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005.srv" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" targetNamespace="http://www.isotc211.org/2005/gmd" elementFormDefault="qualified" xsi:schemaLocation="http://www.isotc211.org/2005/gmd ..\..\..\gmd\gmd.xsd">
+	<import schemaLocation="http://www.w3.org/MarkUp/SCHEMA/xhtml-attribs-1.xsd"/>
+	<element name="gridnigeria">
+		<complexType>
+			<simpleContent>
+				<extension base="ENTITIES">
+					<attribute/>
+				</extension>
+			</simpleContent>
+		</complexType>
+	</element>
+	<complexType name="gridnigeria">
+		<sequence>
+			<element name="parentIdentifier"/>
+			<element name="EducationalInstitutions" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="Roads" type="string" minOccurs="0" maxOccurs="37"/>
+			<element name="HealthFacilities" type="anySimpleType" maxOccurs="37"/>
+			<element name="Agriculture" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="Environment" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="Power" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="CrimeandJustice" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="FillingStation" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="Market" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="FactoryIndustrySite" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="IDPSites" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="GovernmentBuilding" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="PostOffice" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="StateBoundary" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="LocalBoundary" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="WardBoundary" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="PublicWaterPoints" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="Churches" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="Mosques" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="SettlementPoints" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="Hamlets" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="SmallSettlements" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="VillageHead" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="BuiltUpArea" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="Locale" type="anySimpleType" minOccurs="0" maxOccurs="37"/>
+			<element name="spatialRepresentationInfo">
+				<complexType>
+					<choice>
+						<element name="MD_VectorSpatialRepresentation" minOccurs="0"/>
+						<element name="MD_GridSpatialRepresentation" minOccurs="0"/>
+						<element name="MD_Georectified" minOccurs="0"/>
+						<element name="MD_Georeferenceable" minOccurs="0"/>
+					</choice>
+				</complexType>
+			</element>
+			<element name="contact">
+				<complexType>
+					<sequence>
+						<element name="phone" minOccurs="0"/>
+						<element name="address" minOccurs="0"/>
+						<element name="onlineResource" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="address"/>
+			<element name="dateStamp">
+				<complexType>
+					<sequence>
+						<element name="date">
+							<complexType>
+								<choice>
+									<element name="Date"/>
+									<element name="DateTime"/>
+								</choice>
+							</complexType>
+						</element>
+						<element name="dateType"/>
+					</sequence>
+					<attribute type="dateTime" use="required"/>
+				</complexType>
+			</element>
+			<element name="metadataStandardName">
+				<complexType>
+					<attribute/>
+				</complexType>
+			</element>
+			<element name="metadataStandardVersion"/>
+			<element name="dataSetURI">
+				<complexType>
+					<attribute type="anyURI"/>
+				</complexType>
+			</element>
+		</sequence>
+		<attribute name="title" type="ENTITIES" use="required"/>
+	</complexType>
 </schema>

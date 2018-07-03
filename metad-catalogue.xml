@@ -1,34 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MD_Metadata 'MD_Metadata refers to ISO19115' xlink='https://grid-nigeria.org'>
-  <gmd:metadataStandardName>Nigeria Grid3</gmd:metadataStandardName>
-  <State>
-    <EducationalInstitutions></EducationalInstitutions>
-    <Roads></Roads>
-    <HealthFacilities></HealthFacilities>
-    <Agriculture></Agriculture>
-    <Environment></Environment>
-    <Power></Power>
-    <CrimeandJustice></CrimeandJustice>
-    <FillingStation></FillingStation>
-    <Market></Market>
-    <FactoryIndustrySite></FactoryIndustrySite>
-    <IDPSites>Borno</IDPSites>
-    <GovernmentBuilding></GovernmentBuilding>
-    <PostOffice></PostOffice>
-    <StateBoundary></StateBoundary>
-    <LocalBoundary></LocalBoundary>
-    <WardBoundary></WardBoundary>
-    <PublicWaterPoints></PublicWaterPoints>
-    <Churches></Churches>
-    <Mosque></Mosque>
-    <SettlementPoints></SettlementPoints>
-    <Hamlets></Hamlets>
-    <SmallSettlements></SmallSettlements>
-    <BuiltUpArea></BuiltUpArea>
-    <VillageHead></VillageHead>
+<MD_Metadata Type='compound' 
+            BestPractices='MD_Metadata refers to ISO19115, MI_Metadata refers to ISO19115-2'
+            xlink:href="https://grid-nigeria.org">
+
+  <gmd:metadataStandardName>Grid3</gmd:metadataStandardName>
+
+  <State Name="Abia">
+    <EducationalInstitutions xlink:href="https://grid-nigeria.org/dataset/abia-educational-institution">
+    </EducationalInstitutions>
+    <Roads xlink:href="https://grid-nigeria.org/dataset/abia-roads">
+    </Roads>
+    <HealthFacilities xlink:href="https://grid-nigeria.org/dataset/abia-pharmaceutical-biotechnology-health-care">
+    </HealthFacilities>
+    <Agriculture xlink:href="https://grid-nigeria.org/dataset/abia-agricultural-storage-farm-machinery">
+    </Agriculture>
+    <Environment xlink:href="https://grid-nigeria.org/dataset/abia-environment-facilities-services">
+    </Environment>
+    <Power xlink:href="https://grid-nigeria.org/dataset/abia-electrical-infrastructure">
+    </Power>
+    <CrimeandJustice xlink:href="https://grid-nigeria.org/dataset/abia-security-control">
+    </CrimeandJustice>
+    <FillingStation xllink:="https://grid-nigeria.org/dataset/abia-commerce-business-and-economy">
+    </FillingStation>
+    <Market xlink:href="https://grid-nigeria.org/dataset/abia-commerce-business-and-economy">
+    </Market>
+    <FactoryIndustrySite xlink:href="https://grid-nigeria.org/dataset/abia-commerce-business-and-economy">
+    </FactoryIndustrySite>
+    <IDPSites xlink:href="https://grid-nigeria.org/dataset/abia-public-emergency-services">
+    </IDPSites>
+    <GovernmentBuilding xlink:href="https://grid-nigeria.org/dataset/abia-public-building">    
+    </GovernmentBuilding>
+    <PostOffice xlink:href="https://grid-nigeria.org/dataset/abia-public-building">
+    </PostOffice>
+    <StateBoundary xlink:href="https://grid-nigeria.org/dataset/abia-administrative-boundaries">
+    </StateBoundary>
+    <LocalBoundary xlink:href="https://grid-nigeria.org/dataset/abia-administrative-boundaries">
+    </LocalBoundary>
+    <WardBoundary xlink:href="https://grid-nigeria.org/dataset/abia-administrative-boundaries">
+    </WardBoundary>
+    <PublicWaterPoints xlink:href="https://grid-nigeria.org/dataset/abia-utilities">
+    </PublicWaterPoints>
+    <Churches xlink:href="https://grid-nigeria.org/dataset/abia-worship-centers">
+    </Churches>
+    <Mosque xlink:href="https://grid-nigeria.org/dataset/abia-worship-centers">
+    </Mosque>
+    <SettlementPoints xlink:href="https://grid-nigeria.org/dataset/abia-human-settlements">
+    </SettlementPoints>
+    <Hamlets xlink:href="https://grid-nigeria.org/dataset/abia-human-settlements">
+    </Hamlets>
+    <SmallSettlements xlink:href="https://grid-nigeria.org/dataset/abia-human-settlements">
+    </SmallSettlements>
+    <BuiltUpArea xlink:href="https://grid-nigeria.org/dataset/abia-human-settlements">
+    </BuiltUpArea>
+    <VillageHead xlink:href="https://grid-nigeria.org/dataset/abia-human-settlements">
+    </VillageHead>
   </State>
+
   <gmd:parentIdentifier></gmd:parentIdentifier>
   <gmd:contact></gmd:contact>
-  <gmd:dateStamp></gmd:dateStamp>
+  <gmd:dateStamp>
+    Type:
+  </gmd:dateStamp>
     
 </MD_Metadata>
